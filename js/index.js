@@ -1,10 +1,10 @@
-const btn = document.querySelector("#btn");
+const btn = document.querySelector(".btn");
 
 function msg(message) {
     btn.innerHTML = message;
 }
 
-btn.addEventListener("click", () => msg("hello"));
+btn.addEventListener("click", () => msg("Hello"));
 
 // Second Way of doing things
 // btn.addEventListener("click", function () {
